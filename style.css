@@ -1,0 +1,120 @@
+header{
+    align-items: baseline;
+}
+.collapse {
+    text-size-adjust: 3px;
+
+}
+.carousel-inner{
+
+    width: 900px;
+    margin: 0 auto;
+    padding: 100px;
+    height: 600px;
+   background-image: #0000; 
+}
+.tekken{
+    width: 700px;
+    height: 400px;
+}
+.street{
+    width: 700px;
+    height: 400px;
+}
+.kof{
+    width: 700px;
+    height: 400px;
+}
+.fighterz{
+    width: 700px;
+    height: 400px;
+    background-image:linear-gradient(yellow,rgba(117, 78, 5, 0.735),white);
+}
+.marvel{
+    width: 700px;
+    height: 400px;
+}
+#carouselExample{
+    width: 900px;
+    margin: 0 auto;
+
+}
+.container-fluid {
+    align-items: center;
+    margin: 0 auto;
+}
+.cards{
+ 
+    width: 1700px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 200px;
+
+
+}
+.card{
+ 
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+#jogo{
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    
+}
+.card1{
+    background: linear-gradient(red,blue);
+}
+.card2{
+    background: linear-gradient(yellow,rgba(117, 78, 5, 0.735),white);
+}
+.card3{
+    background: linear-gradient(purple,blue);
+}
+.card4{
+    background: linear-gradient(rgba(214, 49, 49, 0.837),rgb(97, 97, 212));
+}
+.card5{
+    background: linear-gradient(rgb(189, 45, 9),purple);
+}
+.site{
+    background-color: black;
+    border: 2px solid black;
+}
+.fundo{
+    width: 2000px;
+}
+.body1{
+    background-image: url(fundo3.jpg);
+    background-image: url(fundo2.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    animation: btimg 30s infinite;
+}
+h1{
+text-align: center;
+color: #fff;
+}
+@keyframes btimg{
+    0%{
+        background-image: url(fundo2.jpg);
+    }
+    50%{
+        background-image: url(fundo3.jpg);  
+    }
+    100%{
+        background-image: url(fundo5.jpg); 
+    }
+    50%{
+        background-image: url(fundo6.jpg); 
+    }
+    0%{
+
+    }
+
+}
